@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302525985374",
+    "project_id": "smd-finalproject",
+    "storage_bucket": "smd-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302525985374:android:ba394cfcfe7292f987facf",
+        "android_client_info": {
+          "package_name": "com.aleenaadil.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302525985374-gg5ntdpr74eraag14iev7grslodfdbde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemr_kprhAzIA_Bq9K3EySRhi69FyYWLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302525985374-gg5ntdpr74eraag14iev7grslodfdbde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

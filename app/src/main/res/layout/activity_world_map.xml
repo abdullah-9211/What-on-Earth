@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorldMap"
+    android:background="@drawable/img_20">
+    <ImageButton
+        android:id="@+id/back11"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />
+
+
+
+    <TextView
+        android:id="@+id/currency2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/concertone"
+        android:text="709,000"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_toLeftOf="@+id/currency2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:background="@drawable/coins"
+        />
+
+
+    <ImageButton
+        android:id="@+id/SDGB2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_baseline_bookmark_242"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageButton
+        android:id="@+id/newsB2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/SDGB2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_baseline_newspaper_24"
+
+        />
+
+
+    <ImageButton
+        android:id="@+id/NAButton"
+        android:layout_width="205dp"
+        android:layout_height="184dp"
+        android:background="@drawable/img_13"
+        android:elevation="10dp"
+        android:translationX="75dp"
+        android:translationY="60dp" />
+    <ImageButton
+        android:layout_width="185dp"
+        android:layout_height="164dp"
+        android:id="@+id/SAButton"
+        android:layout_marginLeft="80dp"
+        android:elevation="10dp"
+        android:translationY="45dp"
+        android:translationX="20dp"
+        android:layout_below="@+id/NAButton"
+        android:background="@drawable/img_14"/>
+
+    <ImageButton
+        android:id="@+id/AsiaButton"
+        android:layout_width="340dp"
+        android:layout_height="220dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/img_15"
+        android:elevation="10dp"
+        android:translationY="20dp"/>
+
+    <ImageButton
+        android:id="@+id/EuropeButton"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="-62dp"
+        android:layout_toLeftOf="@id/AsiaButton"
+        android:background="@drawable/img_21"
+        android:elevation="10dp"
+        android:translationX="-20dp"
+        android:translationY="10dp" />
+
+    <ImageButton
+        android:id="@+id/AfricaButton"
+        android:layout_width="166dp"
+        android:layout_height="180dp"
+        android:elevation="10dp"
+        android:layout_below="@id/AsiaButton"
+        android:layout_marginTop="-149dp"
+        android:background="@drawable/img_17"
+        android:translationX="288dp"
+        android:translationY="65dp" />
+    <ImageButton
+        android:id="@+id/OceaniaButton"
+        android:layout_width="166dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:elevation="10dp"
+        android:layout_below="@id/AsiaButton"
+        android:background="@drawable/img_22"
+        android:translationY="-20dp"
+        android:translationX="0dp"/>
+
+    <ImageView
+        android:id="@+id/getActivity"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/currency2"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="200dp"
+        android:src="@drawable/star" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getActivity"
+        android:text="Get Activity"
+        android:textColor="#fff"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="140dp"
+        />
+
+
+</RelativeLayout>

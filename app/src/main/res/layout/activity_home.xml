@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/earth2"
+    tools:context=".Home">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/profileB2"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/profile_background" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/newsPageB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_baseline_newspaper_24" />
+
+
+
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70,000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/concertone"
+        android:textColor="@color/white" />
+    <ImageView
+        android:id="@+id/coins"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/currency"
+        android:background="@drawable/coins" />
+
+    <ImageButton
+        android:id="@+id/SDGB"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        android:layout_marginRight="100dp"
+        android:layout_toLeftOf="@id/currency"
+        android:background="@drawable/ic_baseline_bookmark_24" />
+
+
+    <Button
+        android:id="@+id/worldMapB"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="0dp"
+        android:text="World Map"
+        android:paddingLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#0A002D"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/populationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/concertone"
+        android:text="Population : "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/populationText"
+        android:fontFamily="@font/concertone"
+        android:text="8,000,000,000"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/deathsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/worldMapB"
+        android:fontFamily="@font/concertone"
+        android:text="Deaths : "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/deaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/deathsText"
+        android:fontFamily="@font/concertone"
+        android:text="456,890"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/worldMapB"
+        android:layout_alignBottom="@id/currency"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/concertone"
+        android:text="Year "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:translationX="-25dp" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/logout" />
+
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/worldMapB"
+        android:layout_alignBottom="@id/currency"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@id/days"
+        android:fontFamily="@font/concertone"
+        android:text="2051"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:translationX="-30dp" />
+
+</RelativeLayout>
